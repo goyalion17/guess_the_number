@@ -52,7 +52,7 @@ checkBtn.addEventListener("click", () => {
 reloadPage.addEventListener("click", () => {  
   getScore = 20;
   randomNumber = Math.trunc(Math.random() * 20) + 1;
-  messages("Начните угадывать...");
+  messages("Start guessing..");
   score.textContent = getScore;
   inputNum.value = "";
   number.textContent = "?"
